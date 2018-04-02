@@ -12,7 +12,7 @@ module.exports = app => {
   app.get('/neditor/listfile', 'neditor.listfile'); // 列出文件
   app.post('/neditor/uploadvideo', 'neditor.uploadvideo'); // 上传视频
   app.post('/neditor/uploadfile', 'neditor.uploadfile'); // 上传附件
-  app.post('/neditor/catchimage', 'neditor.catchimage'); // 执行抓取远程图片
+  app.post('/neditor/catchimage', 'neditor.catchimage'); // 执行抓取远程图片 (最好关闭掉此功能)
 
 
 };

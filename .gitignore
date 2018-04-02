@@ -4,6 +4,8 @@ node_modules/
 */node_modules/
 coverage/
 .idea/
+.env
+config/config.local.js
 run/
 .DS_Store
 *.swp

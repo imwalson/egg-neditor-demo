@@ -688,7 +688,7 @@
                             };
                         })(preview));
                         preview.width = 113;
-                        preview.setAttribute('src', urlPrefix + list[i].url + (list[i].url.indexOf('?') == -1 ? '?noCache=':'&noCache=') + (+new Date()).toString(36) );
+                        preview.setAttribute('src', urlPrefix + list[i].url );
                     } else {
                         var ic = document.createElement('i'),
                             textSpan = document.createElement('span');
